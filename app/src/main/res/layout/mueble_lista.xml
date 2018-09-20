@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="4dp"
+    android:paddingBottom="4dp"
+
+    >
+<FrameLayout
+    android:id="@+id/frameLayoutMuebleLista"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+    <ImageView
+        android:id="@+id/imgMueble"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+         />
+    <ImageView
+        android:id="@+id/imgRueda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/interactivo"
+        android:layout_gravity="right"
+        android:visibility="gone"/>
+</FrameLayout>
+    <TextView
+        android:id="@+id/txtNomMueble"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/frameLayoutMuebleLista"
+        android:layout_centerHorizontal="true"
+        android:maxLines="2"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayoutMuebleLista" />
+
+    <TextView
+        android:id="@+id/txtPrecio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/txtNomMueble"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtNomMueble" />
+
+</android.support.constraint.ConstraintLayout>

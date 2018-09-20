@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="arrayMinutos">
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+        <item>60</item>
+        <item>70</item>
+        <item>80</item>
+        <item>90</item>
+        <item>100</item>
+        <item>110</item>
+        <item>120</item>
+    </string-array>
+    <string-array name="arrayTrabajosNombres">
+        <item>Basurero</item>
+        <item>Programador de juegos</item>
+        <item>Repartidor de pizza</item>
+        <item>Cajero de supermercado</item>
+        <item>Encargado del Burguer</item>
+        <item>Ingeniero</item>
+        <item>Abogado</item>
+        <item>Notario</item>
+        <item>Cirujano</item>
+    </string-array>
+    <string-array name="arrayTrabajosRequisitosINTEL">
+        <item>0</item>
+        <item>4</item>
+        <item>16</item>
+        <item>25</item>
+        <item>32</item>
+        <item>64</item>
+        <item>128</item>
+        <item>200</item>
+        <item>300</item>
+    </string-array>
+    <string-array name="arrayTrabajosSueldoHora">
+        <item>10</item>
+        <item>25</item>
+        <item>50</item>
+        <item>75</item>
+        <item>100</item>
+        <item>150</item>
+        <item>200</item>
+        <item>350</item>
+        <item>500</item>
+    </string-array>
+</resources>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Los ximos</string>
+    <string name="ayuda_bienvenida">¡Bienvenido!  \n Tu Ximo está muy contento de que estés aquí, haz clic en cualquier parte de la habitación para llegar hasta allí</string>
+    <string name="ayuda_primerMueble">¡Muy bien!  ahora coloca algunos muebles en tu piso para que tu Ximo no se sienta solo\n
+                                        Pulsa sobre el icono de la casa en la esquina inferior derecha de la pantalla.\n
+                                       </string>
+
+    <string name="ayuda_mueble1">Ahora coloca el mueble donde quieras arrastrándolo con el dedo, cuando lo hayas colocado, pulsa el icono de la casa en la esquina inferior izquierda de nuevo.</string>
+    <string name="ayuda_mueble_id1">¡Has colocado el armario!  \n
+                                                    El armario sirve para guardar ropa y distintos items que puedes usar durante el juego.\n
+                                                    ¡pulsa sobre el armario para ver que hay dentro!</string>
+    <string name="ayuda_mueble_id2">¡Has colocado las  pesas!  \n
+                                                    Con las pesas puedes hacer a tu Ximo más fuerte!.\n
+                                                    Pero cuidado no te vayas a cansar demasiado! Hacer pesas gasta mucha energía.</string>
+    <string name="ayuda_mueble_id3">¡Ya tienes escritorio y ordenador!\n
+                                    Puedes utilizarlo para estudiar y aumentar la inteligencia de tu Ximo.</string>
+    <string name="ayuda_mueble_id4">¡Has colocado la cama!\n
+                                    Ya tienes donde reponerte cuando estés sin energía. \n
+                                    ¡Felices sueños!</string>
+
+    <string name="ayuda_tareas">Actividades \n Para  obtener habilidades puedes invertir tiempo en actividades utilizando los muebles interactivos.
+                                            \n¡Cuanto más rato inviertas en una actividad más habilidades obtendrás!</string>
+    <string name="ayuda_tareas2">Puedes ver cuanto rato le queda a tu Ximo en el contador de la columna derecha. \n
+                                 Pulsa sobre tu Ximo para ver la información de la actividad. \n
+                                ¡ Puedes acelerar el tiempo de espera si tienes suficientes monedas!</string>
+    <string name="ayuda_explorar">¡Explorar! Puedes enviar a tu Ximo a dar una vuelta a buscar tesoros, cuanto más tiempo esté buscando más posibilidades tendrá de encontrar algo.
+                                \n Y no olvides darle algo de inteligencia primero ¡de lo contrario puede que se pierda!</string>
+</resources>

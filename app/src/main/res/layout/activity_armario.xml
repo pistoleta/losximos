@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dp"
+    android:layout_height="200dp"
+    android:orientation="horizontal"
+    android:background="@color/Black">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="100dp"
+            android:layout_height="100dp">
+
+            <ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/imgCuerpo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/pl1_frente" />
+
+            <ImageView
+                android:id="@+id/imgPantalon"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                 />
+
+            <ImageView
+                android:id="@+id/imgCamisa"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                />
+            <ImageView
+                android:id="@+id/imgArma"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+               />
+        </FrameLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="guardarCambiosClick"
+            android:text="Guardar"
+            android:textColor="@color/White"
+            android:background="@drawable/btn_azul"
+             />
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="right">
+
+        <Button
+            android:id="@+id/btnFiltraCuerpos"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:onClick="filtraCuerposClick"
+            android:textColor="@color/White"
+            android:background="@drawable/btn_cuerpo"/>
+
+        <Button
+            android:id="@+id/btnFiltraRopa"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:onClick="filtraRopaClick"
+            android:textColor="@color/White"
+            android:background="@drawable/btn_ropa"
+             />
+        <Button
+            android:id="@+id/btnFiltraArmas"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:onClick="filtraArmasClick"
+            android:textColor="@color/White"
+            android:background="@drawable/btn_armas"
+            />
+    </LinearLayout>
+
+<!--    <GridView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnWidth="100dp"
+        android:gravity="center"
+        android:horizontalSpacing="10dp"
+        android:numColumns="3"
+        android:stretchMode="spacingWidthUniform"
+        android:verticalSpacing="5dp"></GridView>-->
+    <android.support.v7.widget.RecyclerView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+</LinearLayout>
+</LinearLayout>

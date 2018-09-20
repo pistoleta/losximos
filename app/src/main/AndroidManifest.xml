@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.example.losximos">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="org.example.losximos.Aplicacion"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="org.example.losximos.MainActivity"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape"
+            android:theme="@style/Base.Theme.AppCompat.Light">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.example.losximos.Juego"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="org.example.losximos.ArmarioActivity"
+            android:label="Armario"
+            android:launchMode="singleInstance"
+            android:theme="@style/Base.Theme.AppCompat.Light.Dialog"/>
+        <activity
+            android:name="org.example.losximos.EstadoJugadorActivity"
+            android:label="Estado jugador"
+            android:launchMode="singleInstance"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name="org.example.losximos.MueblesActivity"
+            android:label="Muebles"
+            android:launchMode="singleInstance"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity android:name="org.example.losximos.AjustesActivity"
+            android:label="Menú"
+            android:theme="@android:style/Theme.Dialog" ></activity>
+    </application>
+
+</manifest>

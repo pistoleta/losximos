@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+       <!-- <Button
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Todos"
+            android:paddingTop="0dp"
+            android:paddingBottom="0dp"
+            android:onClick="filtrarTodos"
+            />-->
+    <Button
+        android:id="@+id/btnInteractivos"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/btn_interact"
+
+        android:onClick="filtrarInteractivos"
+        android:layout_marginRight="5dp"
+        />
+
+        <Button
+            android:id="@+id/btnMuebles"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/btn_muebles"
+
+            android:onClick="filtrarMuebles"
+            android:layout_marginRight="5dp"
+            />
+        <Button
+            android:id="@+id/btnElectrodomesticos"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/btn_electro"
+
+            android:onClick="filtrarElectrodomesticos"
+            android:layout_marginRight="5dp"
+            />
+        <Button
+            android:id="@+id/btnBanyo"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/btn_banyo"
+
+            android:onClick="filtrarBanyo"
+            android:layout_marginRight="5dp"
+            />
+        <Button
+            android:id="@+id/btnDeco"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/btn_deco"
+
+            android:onClick="filtrarDecoracion"
+            android:layout_marginRight="5dp"
+            />
+        <Button
+            android:id="@+id/btnParedes"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/btn_paredes"
+            android:onClick="filtrarParedes"
+            android:layout_marginRight="5dp"
+            />
+        <Button
+            android:id="@+id/btnSuelo"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/btn_suelo"
+
+            android:onClick="filtrarSuelo"
+            />
+
+    </LinearLayout>
+
+
+<android.support.v7.widget.RecyclerView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/recycler_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    />
+
+</LinearLayout>

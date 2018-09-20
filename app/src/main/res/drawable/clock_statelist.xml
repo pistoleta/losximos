@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/clock5" android:state_selected="false"></item>
+    <item android:drawable="@drawable/clock10" android:state_selected="false"></item>
+    <item android:drawable="@drawable/clock15" android:state_selected="false"></item>
+    <item android:drawable="@drawable/clock20" android:state_selected="false"></item>
+    <item android:drawable="@drawable/clock25" android:state_selected="false"></item>
+    <item android:drawable="@drawable/clock30" android:state_selected="false"></item>
+    <item android:drawable="@drawable/clock35" android:state_selected="false"></item>
+    <item android:drawable="@drawable/clock40" android:state_selected="false"></item>
+    <item android:drawable="@drawable/clock45" android:state_selected="false"></item>
+    <item android:drawable="@drawable/clock50" android:state_selected="false"></item>
+    <item android:drawable="@drawable/clock55" android:state_selected="false"></item>
+    <item android:drawable="@drawable/clock60" android:state_selected="false"></item>
+    <item android:drawable="@drawable/clock65" android:state_selected="false"></item>
+    <item android:drawable="@drawable/clock70" android:state_selected="false"></item>
+    <item android:drawable="@drawable/clock75" android:state_selected="false"></item>
+    <item android:drawable="@drawable/clock80" android:state_selected="false"></item>
+    <item android:drawable="@drawable/clock85" android:state_selected="false"></item>
+    <item android:drawable="@drawable/clock90" android:state_selected="false"></item>
+    <item android:drawable="@drawable/clock95" android:state_selected="false"></item>
+    <item android:drawable="@drawable/clock100" android:state_selected="false"></item>
+</selector>

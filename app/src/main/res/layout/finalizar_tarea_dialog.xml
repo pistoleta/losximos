@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+   <TextView
+       android:id="@+id/numMonedas"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text=""/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/btn_rojo"
+            android:text="Detener"
+            android:textColor="@color/White" />
+
+
+        <Button
+            android:id="@+id/btnOk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/btn_azul"
+            android:text="Continuar"
+            android:textColor="@color/White" />
+
+        <FrameLayout
+            android:id="@+id/frameBotonAcel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/btnAcel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:background="@drawable/btn_verde_pressed"
+                android:elevation="2dp"
+                android:text="Acelerar"
+                android:textColor="@color/White" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center_vertical"
+                android:elevation="3dp"
+                android:paddingRight="5dp"
+                android:src="@drawable/moneda" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

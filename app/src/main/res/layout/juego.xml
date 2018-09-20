@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+
+
+    <org.example.losximos.VistaJuego
+        android:id="@+id/VistaJuego"
+        android:layout_width="0dp"
+        android:layout_weight="10"
+        android:layout_height="fill_parent"
+        android:focusable="true"
+        android:background="@drawable/suelo2"
+        >
+    </org.example.losximos.VistaJuego>
+    <RelativeLayout
+
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorBlack">
+
+
+        <Button android:id="@+id/btnAjustes"
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/menu"
+            android:onClick="lanzaAjustesClick"/>
+
+
+        <FrameLayout
+            android:id="@+id/frameLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnAjustes"
+            android:onClick="estadoJugadorClick"
+            >
+
+            <ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/imgCuerpo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+            <ImageView
+                android:id="@+id/imgPantalon"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+
+            <ImageView
+                android:id="@+id/imgCamisa"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+            <ImageView
+                android:id="@+id/imgArma"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/txtIntel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/Ivory"
+            android:layout_below="@id/frameLayout"/>
+
+        <TextView
+            android:id="@+id/txtFue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/Ivory"
+            android:layout_below="@id/txtIntel"/>
+
+        <TextView
+            android:id="@+id/txtAgi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/Ivory"
+            android:layout_below="@id/txtFue"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/btnCasa"
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:background="@drawable/casa"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="5dp"
+            android:onClick="casaClic"/>
+        <Button
+            android:id="@+id/btnTools"
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:background="@drawable/herramientas"
+            android:layout_above="@+id/btnCasa"
+            android:layout_marginTop="5dp"
+            android:onClick="mueveMuebleClic" />
+        <Button
+            android:id="@+id/btnLupa"
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:background="@drawable/lupa"
+            android:layout_above="@+id/btnTools"
+            android:layout_marginTop="5dp"
+            android:onClick="lupaClic"/>
+        <Button
+            android:id="@+id/btnJobSearch"
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:background="@drawable/job_search"
+            android:layout_above="@+id/btnLupa"
+            android:layout_marginTop="5dp"
+            android:onClick="jobSearchClic"/>
+        <Button
+            android:id="@+id/btnGoToWork"
+            android:layout_width="35dp"
+            android:layout_height="30dp"
+            android:background="@drawable/ico_work"
+            android:layout_above="@+id/btnJobSearch"
+            android:layout_marginTop="5dp"
+            android:onClick="goToWorkClic"/>
+
+
+        <TextView
+            android:id="@+id/txtReloj"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:textColor="@color/Ivory"
+            android:layout_above="@id/btnGoToWork"
+            android:background="@drawable/btn_azul"
+            android:visibility="invisible"
+            />
+    </RelativeLayout>
+</LinearLayout>

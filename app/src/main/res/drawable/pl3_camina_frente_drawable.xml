@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+    xmlns:android= "http://schemas.android.com/apk/res/android"
+    android:oneshot= "false"
+    >
+<item android:drawable="@drawable/pl3_frente1" android:duration="100" />
+<item android:drawable="@drawable/pl3_frente2" android:duration="100" />
+<item  android:drawable="@drawable/pl3_frente3" android:duration="100" />
+<item android:drawable="@drawable/pl3_frente4" android:duration="100" />
+<item android:drawable="@drawable/pl3_frente5" android:duration="100" />
+<item  android:drawable="@drawable/pl3_frente6" android:duration="100" />
+<item android:drawable="@drawable/pl3_frente7" android:duration="100" />
+<item  android:drawable="@drawable/pl3_frente8" android:duration="100" />
+</animation-list>
